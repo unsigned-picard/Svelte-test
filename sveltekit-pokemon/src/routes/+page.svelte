@@ -22,7 +22,7 @@
            class="w-full h-16 p-4 rounded-md text-lg bg-gray-200 border-2 mb-8">
     <div class="columns-3 ">
         {#each $pokemon as creature}
-            <CreatureCard creature={creature}></CreatureCard>
+            <CreatureCard  creature={creature}></CreatureCard>
         {/each}
     </div>
 </div>
